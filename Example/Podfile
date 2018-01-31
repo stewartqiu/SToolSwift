@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SToolSwift_Example' do
+  pod 'SToolSwift', :path => '../'
+
+  target 'SToolSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
