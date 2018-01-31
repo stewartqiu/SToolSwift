@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2C647980D02D42311EB389F7AADFA88E /* SToolSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E86F70314570E45D64CC845E112730 /* SToolSwift-dummy.m */; };
-		6EA2E4C46A6183A98126FAD744CADB78 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337761660F82C75DADC258EAD67E743B /* ReplaceMe.swift */; };
 		7C81E31E35C76789BCC65A2E2CAC69C7 /* Pods-SToolSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3E6E98D32C854D30D44DCCD5310167 /* Pods-SToolSwift_Tests-dummy.m */; };
 		87ACDED5E8DF6FEDE2D18261975070D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8F3A2D91F846F9C4FCCC46168CB72A2E /* Pods-SToolSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14706F9896D4FE362A6BA8C920B5B312 /* Pods-SToolSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,6 +15,7 @@
 		A93B05B876AE2B0B337934A888D7621B /* Pods-SToolSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D515C77936CD76BD0813E178E8A1929 /* Pods-SToolSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAC6095D26A50036236A924A4602C2E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C69DA5E616D5BBEDDDFFB8BBC6FB7235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F44EAB522021B9C5009609C9 /* STool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44EAB512021B9C5009609C9 /* STool.swift */; };
 		F4DC6CF1D0AAC6D655046CF459CEFA4C /* SToolSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C38DAD3765B3A04C15D38922B8E42528 /* SToolSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -35,7 +35,6 @@
 		190B2AE063825A03FB87747C0085F88B /* Pods-SToolSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SToolSwift_Tests.modulemap"; sourceTree = "<group>"; };
 		2F84E88758AA65873BF5D2C2050B362E /* Pods-SToolSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SToolSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3020D419F63DB7353EAB6645803DB95C /* Pods_SToolSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SToolSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		337761660F82C75DADC258EAD67E743B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SToolSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3E4E3D3372C31E68910E992EDF1A9011 /* SToolSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SToolSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		525CF37D7110A56CDEB64F92F9EDBA02 /* Pods-SToolSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SToolSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		59E86F70314570E45D64CC845E112730 /* SToolSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SToolSwift-dummy.m"; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		E9557FC60648AFF335A8AF426B879C4B /* SToolSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SToolSwift-prefix.pch"; sourceTree = "<group>"; };
 		EBC15D8E172FDC1A7EB61458428AC5D7 /* Pods-SToolSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SToolSwift_Example.modulemap"; sourceTree = "<group>"; };
 		EE561889B0D684AD4F953B92B88EB669 /* Pods-SToolSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SToolSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F44EAB512021B9C5009609C9 /* STool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = STool.swift; path = SToolSwift/Classes/STool/STool.swift; sourceTree = "<group>"; };
 		FC7B526BF00529B91D40994BB6D91578 /* Pods-SToolSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SToolSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,8 +95,8 @@
 		26A35818865807FF09D74A77454E97AB /* SToolSwift */ = {
 			isa = PBXGroup;
 			children = (
-				337761660F82C75DADC258EAD67E743B /* ReplaceMe.swift */,
 				3FBFA0C8A0ED6E1347E17DA7400EDCDE /* Support Files */,
+				F44EAB512021B9C5009609C9 /* STool.swift */,
 			);
 			name = SToolSwift;
 			path = ../..;
@@ -296,6 +296,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					374D69434F10BDCC1DF6622E862A4DE3 = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -321,8 +326,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EA2E4C46A6183A98126FAD744CADB78 /* ReplaceMe.swift in Sources */,
 				2C647980D02D42311EB389F7AADFA88E /* SToolSwift-dummy.m in Sources */,
+				F44EAB522021B9C5009609C9 /* STool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 897B70CA58CFF1AF44C60E0E222E91B8 /* SToolSwift.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -540,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 897B70CA58CFF1AF44C60E0E222E91B8 /* SToolSwift.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
