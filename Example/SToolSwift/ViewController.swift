@@ -7,18 +7,19 @@
 //
 
 import UIKit
+import SToolSwift
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        testStool()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func testStool () {
+        print(STool.getNow(format: "dd-MM-yyyy HH:mm:ss"))
+        print(STool.randomString(length: 28))
+        print(UIDevice().modelName)
     }
-
+    
 }
 

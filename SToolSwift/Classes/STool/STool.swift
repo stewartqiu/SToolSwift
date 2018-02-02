@@ -53,14 +53,14 @@ public class STool {
     
     
     
-    
+    // TODO:- Pelajari
     public static func openDocumentPicker (sender: UIViewController) {
-        // Protocol UIDocumentPickerViewController
         let documentPicker = UIDocumentPickerViewController(documentTypes: [], in: .import)
         sender.present(documentPicker, animated: true, completion: nil)
     }
     
     
+
     
     
     
@@ -106,7 +106,7 @@ public class STool {
     
     
     
-    public static func getRandomNumber (length : Int) -> String {
+    public static func randomNumber (length : Int) -> String {
         
         var string = ""
         
@@ -116,9 +116,7 @@ public class STool {
         
         return string
     }
-    
-    
-    
+
     
     
     public static func randomString(length: Int) -> String {

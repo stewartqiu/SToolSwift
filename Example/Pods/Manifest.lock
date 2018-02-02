@@ -1,5 +1,15 @@
 PODS:
-  - SToolSwift (0.1.0)
+  - Realm (3.1.0):
+    - Realm/Headers (= 3.1.0)
+  - Realm/Headers (3.1.0)
+  - RealmSwift (3.1.0):
+    - Realm (= 3.1.0)
+  - SQLite.swift (0.11.4):
+    - SQLite.swift/standard (= 0.11.4)
+  - SQLite.swift/standard (0.11.4)
+  - SToolSwift (0.0.1):
+    - RealmSwift
+    - SQLite.swift
 
 DEPENDENCIES:
   - SToolSwift (from `../`)
@@ -9,8 +19,11 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SToolSwift: 29e620b19609e8895df3cec3bc0da90df49889fc
+  Realm: 09513d7c054678d65cd02ce09871f805b0d758ac
+  RealmSwift: e868fee9b10e5490ad94b6b6ecd9027944da1824
+  SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
+  SToolSwift: 02bd5ccd0737f3de55792521edf616bc45c24f78
 
 PODFILE CHECKSUM: ff84289a10f4974041d6c135f7cf5c4d9f975f52
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.4.0
