@@ -7,7 +7,7 @@ PODS:
   - SQLite.swift (0.11.4):
     - SQLite.swift/standard (= 0.11.4)
   - SQLite.swift/standard (0.11.4)
-  - SToolSwift (0.0.1):
+  - SToolSwift (0.0.2):
     - RealmSwift
     - SQLite.swift
 
@@ -22,7 +22,7 @@ SPEC CHECKSUMS:
   Realm: 09513d7c054678d65cd02ce09871f805b0d758ac
   RealmSwift: e868fee9b10e5490ad94b6b6ecd9027944da1824
   SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
-  SToolSwift: 02bd5ccd0737f3de55792521edf616bc45c24f78
+  SToolSwift: 4b4a5e16d38632edc92ecded3ab960e329800b86
 
 PODFILE CHECKSUM: ff84289a10f4974041d6c135f7cf5c4d9f975f52
 
